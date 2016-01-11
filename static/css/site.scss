@@ -1,0 +1,88 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import url(https://fonts.googleapis.com/css?family=Euphoria+Script);
+
+$grey: #848484;
+$grey-dark: #2E2E2E;
+$pink: #FA58D0;
+$teal: #00FFFF;
+$off-white: #FAFAFA;
+
+html, body {
+  background-color: $grey;
+  background-image: url("../img/grey-checkered background.jpg");
+  // opacity: 0.8;
+  border-top: 5px solid $teal;
+}
+
+#site-name {
+  font-family: 'Euphoria Script', cursive;
+  font-size: 37px;
+  margin-left: 5px;
+  color: $grey-dark;
+}
+
+#about .container {
+  max-width: 100%;
+  color: $off-white;
+}
+
+.container a {
+  color: $pink;
+}
+.container a:hover {
+  color: darken($pink, 30);
+  text-decoration: none;
+}
+
+div.footer {
+  border-bottom: 15px solid $teal;
+}
+
+.vertical-line {
+  height: 100%;
+  z-index: 1;
+  position:fixed !important;
+  top:0;
+  bottom:0;
+  opacity: 0.75;
+}
+
+.pink {
+  background-color: $pink;
+}
+
+.large {
+  width: 50px;
+}
+
+.thin {
+  width: 8px;
+}
+
+.left-1 {
+  left: 20px;
+}
+
+.left-2 {
+  left: 80px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.about-me {
+  text-align: center;
+  color: lighten($grey-dark, 10);
+
+  a {
+    color: lighten($grey-dark, 10)
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
