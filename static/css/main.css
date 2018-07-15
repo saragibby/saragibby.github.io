@@ -2,11 +2,9 @@
 -------------------------------------------------- */
 html,
 body {
-  height: 100%;
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27A822;
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -170,9 +168,6 @@ body {
 }
 .text-muted {
 	color: #6b6b6b;
-}
-div.footer{
-  border-bottom: 5px solid #27A822;;
 }
 /* Set the fixed height of the footer here */
 /*.footer {
